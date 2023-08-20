@@ -1,5 +1,36 @@
 body {
-    background-color: #3b3434;
-    margin: auto;
-    
+  background-color: #3b3434;
+  margin: auto;
+  color: white;
+  text-decoration-color: gray;
+  padding: 0;
+  height: 100%;
+  overflow: hidden;
+}
+
+.tile {
+  width: 100px;
+  height: 100px;
+  background-color: #3498db;
+  position: relative;
+  text-align: center;
+  align-items: center;
+  align-content: center;
+}
+.tile a {
+  border-radius: 10%;
+  border: #3b3434;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+#footer {
+  width: 100%;
+  margin: 0 0;
+  background-color: darkgrey;
 }
